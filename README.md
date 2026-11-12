@@ -20,7 +20,7 @@ If Python is unavailable, use any static file server or the VS Code Live Server 
 - **Name, introduction, headings, education, and journey:** update the corresponding content in `index.html`.
 - **Contact details:** the contact section links to Arjit's email (`arjitm658@gmail.com`), phone (`7390002520`), and Instagram (`@_arjit_00`). Add other profiles only when available; use `mailto:address@example.com` for email, `tel:+...` for a phone number, and full `https://` URLs for social profiles.
 - **Projects:** replace each editable project prompt in the projects section. Add screenshots under `assets/images/`, reference them with relative paths, and use `loading="lazy"` and meaningful `alt` text. Add only real demo and repository URLs.
-- **Profile imagery:** place a suitably sized image in `assets/images/` and add it to the relevant HTML section. No personal photo is included by default.
+- **Profile imagery:** Arjit's profile photo is stored at `assets/images/arjit-profile.png` and appears in the hero and About sections. Update the image `alt` text in `index.html` if you replace it.
 - **Services and skills:** edit the relevant text and tags in `index.html`; proficiency levels are intentionally omitted.
 - **Visual direction:** the charcoal, warm-neutral, and restrained bronze palette is defined by the custom properties at the top of `css/style.css`. Section layouts and responsive breakpoints follow below.
 - **3D objects, lighting, particles, and motion:** edit `js/scene.js`. The hero uses a bronze torus-knot sculpture; the universe uses a small connected sculptural composition. Both scenes share the renderer setup and pause when off-screen. Reduce particle counts or geometry detail for slower devices.
