@@ -18,7 +18,7 @@ If Python is unavailable, use any static file server or the VS Code Live Server 
 ## Edit the portfolio
 
 - **Name, introduction, headings, education, and journey:** update the corresponding content in `index.html`.
-- **Email and social profiles:** replace the `ADD ...` prompts in the contact section with real links. Use `mailto:address@example.com` for email, `tel:+...` for a phone number, and full `https://` URLs for social profiles.
+- **Contact details:** the contact section links to Arjit's email (`arjitm658@gmail.com`), phone (`7390002520`), and Instagram (`@_arjit_00`). Add other profiles only when available; use `mailto:address@example.com` for email, `tel:+...` for a phone number, and full `https://` URLs for social profiles.
 - **Projects:** replace each editable project prompt in the projects section. Add screenshots under `assets/images/`, reference them with relative paths, and use `loading="lazy"` and meaningful `alt` text. Add only real demo and repository URLs.
 - **Profile imagery:** place a suitably sized image in `assets/images/` and add it to the relevant HTML section. No personal photo is included by default.
 - **Services and skills:** edit the relevant text and tags in `index.html`; proficiency levels are intentionally omitted.

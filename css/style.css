@@ -225,6 +225,8 @@ h1, h2, h3, p { margin-top: 0; }
 .contact-list { margin-top: 35px; }
 .contact-list p { display: flex; justify-content: space-between; gap: 18px; max-width: 390px; padding: 10px 0; margin: 0; border-bottom: 1px solid var(--line); font-size: 7px; letter-spacing: .1em; }
 .contact-list p > span:first-child { color: var(--muted); }
+.contact-list a { text-decoration: none; transition: color .2s ease; }
+.contact-list a:hover { color: var(--bronze-hover); }
 .placeholder-value { color: var(--quiet); text-align: right; }
 .contact-form { display: grid; align-content: start; gap: 10px; padding: 7px 0 0; }
 .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
